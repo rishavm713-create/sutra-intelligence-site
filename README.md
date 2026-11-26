@@ -146,6 +146,29 @@ The following remain separate evaluation requirements:
 
 No unverified claim is made here about improved reasoning, accuracy, speed, cost savings or production readiness.
 
+## Status and honesty
+
+SŪTRA is at **prototype stage**. Its core hypothesis, that a model-independent control layer makes AI work more reliable and less wasteful, is **unproven**. No benchmarks exist; only synthetic unit tests. This project makes no claim of improved speed, cost, accuracy or reasoning.
+
+![License: Proprietary](https://img.shields.io/badge/license-proprietary-b8860b)
+![Status: Prototype](https://img.shields.io/badge/status-prototype-7fb8ff)
+![Not open source](https://img.shields.io/badge/open%20source-no-lightgrey)
+
+## Architecture at a glance
+
+```mermaid
+flowchart LR
+    A["User objectives"] --> B["Sūtra Intelligence"]
+    B --> C["Models and Tools"]
+    C --> D["Execution and Verification"]
+    D --> E["Outcomes and Feedback"]
+    E -. informs .-> B
+```
+
+## Documentation
+
+[Why Sūtra](docs/WHY-SUTRA.md) · [Capabilities](docs/CAPABILITIES.md) · [Architecture overview](docs/ARCHITECTURE-OVERVIEW.md) · [Use cases](docs/USE-CASES.md) · [Roadmap](docs/ROADMAP.md) · [FAQ](docs/FAQ.md) · [Copyright](COPYRIGHT.md) · [Trademark](TRADEMARK.md)
+
 ## What this repository contains
 
 This is the **public-facing website and brand repository** for SŪTRA INTELLIGENCE.
@@ -153,7 +176,7 @@ This is the **public-facing website and brand repository** for SŪTRA INTELLIGEN
 It does not contain:
 
 - Sūtra Core source code or executable implementation.
-- The internal rule registry or private operating specifications.
+- Private operating specifications.
 - Private research notes, development logs or internal design documents.
 - Non-public evaluation data, experiments or proprietary engineering materials.
 
