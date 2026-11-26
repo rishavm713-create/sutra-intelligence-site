@@ -175,6 +175,22 @@ flowchart LR
     E -. informs .-> B
 ```
 
+## The Indian philosophy behind each stage
+
+SUTRA is inspired by ideas from Indian thought. These are inspirations for how we think about the design, not claims about what the software achieves.
+
+| Stage | Idea that inspires it | In simple words |
+|---|---|---|
+| User objectives | **Dharma** (purpose, right duty) | Know clearly what the work is for, and stay true to it. |
+| SUTRA Intelligence | **Viveka** (discernment) | Tell what matters from what does not, and choose wisely. |
+| Models and Tools | **Yoga** (union, disciplined harmony) | Many different abilities working together as one. |
+| Execution and Verification | **Pramana** (valid ways of knowing) | Do not just believe a result; check it properly. |
+| Outcomes and Feedback | **Karma** (action and its result) | Every action has a result, and we learn from it. |
+
+Running through all of it is **Satya** (truthfulness): saying honestly what is done and what is not. The word *sutra* itself means a thread that joins many beads into one garland.
+
+These traditions belong to everyone. We honour them and claim only our own original work.
+
 ## Documentation
 
 [Why Sutra](docs/WHY-SUTRA.md) · [Capabilities](docs/CAPABILITIES.md) · [Architecture overview](docs/ARCHITECTURE-OVERVIEW.md) · [Use cases](docs/USE-CASES.md) · [Roadmap](docs/ROADMAP.md) · [FAQ](docs/FAQ.md) · [Copyright](COPYRIGHT.md) · [Trademark](TRADEMARK.md)

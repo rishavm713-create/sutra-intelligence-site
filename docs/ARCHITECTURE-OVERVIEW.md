@@ -26,6 +26,10 @@ Think of building a house.
 4. **Doing and checking the work (Execution and Verification)** – Workers build; a different person inspects. If something goes wrong, they try again a few times, then call you.
 5. **Results and lessons (Outcomes and Feedback)** – You get the house with an honest list of anything unfinished, and lessons are kept for the next job.
 
+## The Indian ideas behind it
+
+Each stage is inspired by an idea from Indian philosophy: **Dharma** (purpose) for what you want, **Viveka** (discernment) for the supervisor, **Yoga** (harmony) for tools working together, **Pramana** (valid ways of knowing) for checking, and **Karma** (action and result) for lessons learned. **Satya** (truthfulness) runs through all of it. These are inspirations only, and belong to everyone.
+
 ## Why this shape?
 
 - One manager keeps the job on track.
