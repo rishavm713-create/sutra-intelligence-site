@@ -11,6 +11,7 @@ var anims=function(){return yw.getAnimations?yw.getAnimations({subtree:true}):[]
 var lastR=0;function rate(r){r=Math.round(r*4)/4;if(r===lastR)return;lastR=r;anims().forEach(function(a){if(a.animationName&&a.animationName!=='flow')a.playbackRate=r})}
 
 function layout(){
+  if(AUTO){var tw=hero.getBoundingClientRect().width||innerWidth;hero.style.height=Math.round(Math.min(Math.max(tw*1.1,400),560))+'px'}
   var r=hero.getBoundingClientRect();W=r.width||innerWidth;H=r.height||innerHeight;dpr=AUTO?1:Math.min(devicePixelRatio||1,2);
   cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);
   Y0=Math.min(W*.86,H*.7);yw.style.width=yw.style.height=Y0+'px';

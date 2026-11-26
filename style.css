@@ -181,3 +181,5 @@ footer p.byline strong{color:#d8b45a;font-weight:600}
 
 /* touch devices: no scroll-pinned scrub (sticky is unreliable on some mobile Chromes); animation autoplays instead */
 html.auto #track{height:auto;margin-bottom:0}html.auto #hero{position:relative}
+html.auto #hero{min-height:0}
+html.auto #philosophy{padding-top:12px}
