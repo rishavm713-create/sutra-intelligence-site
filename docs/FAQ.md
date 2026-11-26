@@ -2,7 +2,7 @@
 
 [← Back to README](../README.md)
 
-**What is SŪTRA INTELLIGENCE™?**
+**What is SUTRA INTELLIGENCE?**
 A prototype control layer meant to sit above AI models and tools, keeping objectives steady, separating doing from verifying, and reporting honestly on outcomes.
 
 **Is it a new AI model?**
@@ -27,7 +27,7 @@ Private, and not in this repository.
 Not without written permission. Training or evaluating machine-learning models on it is not permitted.
 
 **Is the name registered as a trademark?**
-No. It is an unregistered ™ claim. Availability has not yet been verified by an official register search. See [TRADEMARK.md](../TRADEMARK.md).
+No. It is an unregistered trademark claim. Availability has not yet been verified by an official register search. See [TRADEMARK.md](../TRADEMARK.md).
 
 **Do you own Sanskrit or Indian philosophy?**
 No. Those are a shared heritage. Only the original software, design, art and text are claimed. See [COPYRIGHT.md](../COPYRIGHT.md).

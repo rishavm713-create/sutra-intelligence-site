@@ -2,7 +2,7 @@
 
 ## Status
 
-**SŪTRA INTELLIGENCE™** is claimed as a trademark by Rishav Mishra under common-law use. The ™ symbol indicates an **unregistered** claim.
+**SUTRA INTELLIGENCE** is claimed as a trademark by Rishav Mishra as an **unregistered** claim, under common-law use.
 
 - **No trademark registration is asserted** in any country.
 - **Name availability has not been verified** by an official register search. Others may hold earlier or conflicting rights.
@@ -28,7 +28,7 @@ These belong to a shared heritage. The names and ideas inspire the project's ton
 
 | Original (claimed) | Traditional (not claimed) |
 |---|---|
-| The combined name SŪTRA INTELLIGENCE™ as a project identity | The word *sūtra* alone |
+| The combined name SUTRA INTELLIGENCE as a project identity | The word *sūtra* alone |
 | Original software, design, art and text | Philosophical concepts and traditional symbols |
 
 ## Use by others

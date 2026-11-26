@@ -8,7 +8,7 @@ A conceptual view only. Internal components, interfaces, rules and mechanisms ar
 
 ```mermaid
 flowchart LR
-    A["User objectives"] --> B["Sūtra Intelligence"]
+    A["User objectives"] --> B["Sutra Intelligence"]
     B --> C["Models and Tools"]
     C --> D["Execution and Verification"]
     D --> E["Outcomes and Feedback"]
@@ -16,7 +16,7 @@ flowchart LR
 ```
 
 ```
-User objectives → Sūtra Intelligence → Models and Tools
+User objectives → Sutra Intelligence → Models and Tools
                 → Execution and Verification → Outcomes and Feedback
 ```
 
@@ -25,14 +25,14 @@ User objectives → Sūtra Intelligence → Models and Tools
 **Responsibility:** receive what the person wants, with their constraints, in their terms.
 **Benefit:** a single, clear reference for everything that follows.
 
-## 2. Sūtra Intelligence
+## 2. Sutra Intelligence
 
 **Responsibility:** keep the objective steady; gather context and evidence; shape a plan; decide what kind of work should go where.
 **Benefit:** one coordinating point, instead of disconnected model calls that each start from scratch.
 
 ## 3. Models and Tools
 
-**Responsibility:** the AI models and tools that actually have capabilities. Sūtra selects among them per piece of work.
+**Responsibility:** the AI models and tools that actually have capabilities. Sutra selects among them per piece of work.
 **Benefit:** the right capability for the job, and no dependence on one vendor.
 
 ## 4. Execution and Verification

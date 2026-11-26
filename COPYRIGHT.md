@@ -9,7 +9,7 @@ Copyright is claimed in the original works in this repository and on its website
 - website and documentation text
 - page design, layout and styling
 - original artwork and graphics
-- the written description of SŪTRA INTELLIGENCE™
+- the written description of SUTRA INTELLIGENCE
 
 The private source code of the project is a separate proprietary work and is not part of this repository.
 

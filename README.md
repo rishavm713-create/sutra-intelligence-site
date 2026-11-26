@@ -1,12 +1,12 @@
-# SŪTRA INTELLIGENCE™
+# SUTRA INTELLIGENCE
 
 ### The Intelligence Control Architecture for AI.
 
 **Make AI systems more deliberate, dependable and efficient.**
 
-SŪTRA is an independent, model-agnostic intelligence architecture being developed to coordinate how AI systems understand objectives, work with context, choose appropriate capabilities, carry out tasks, check results and communicate what actually happened.
+SUTRA is an independent, model-agnostic intelligence architecture being developed to coordinate how AI systems understand objectives, work with context, choose appropriate capabilities, carry out tasks, check results and communicate what actually happened.
 
-It is designed to work **around AI models**, not to replace them. SŪTRA aims to bring structure, direction and accountability to the systems that use AI.
+It is designed to work **around AI models**, not to replace them. SUTRA aims to bring structure, direction and accountability to the systems that use AI.
 
 <p align="center">
   <a href="https://rishavm713-create.github.io/sutra-intelligence-site/"><strong>Explore the official website →</strong></a>
@@ -16,15 +16,15 @@ It is designed to work **around AI models**, not to replace them. SŪTRA aims to
 
 ---
 
-## What is SŪTRA?
+## What is SUTRA?
 
 Today's AI systems can generate, analyse and create. But completing a meaningful task often requires more than generating an answer: a system must understand the goal, keep the right context, choose suitable tools, respect constraints, manage steps, check its work and acknowledge uncertainty.
 
-SŪTRA is being developed to provide that coordinating intelligence layer.
+SUTRA is being developed to provide that coordinating intelligence layer.
 
 It is not another foundation model, a standalone chatbot or a collection of prompts. It is intended as a reusable control architecture that can work with different models, software tools and product environments.
 
-## What SŪTRA is designed to do
+## What SUTRA is designed to do
 
 | Capability | What it means in practice |
 |---|---|
@@ -46,7 +46,7 @@ These are design objectives and areas of development—not a claim that every ca
 
 A capable model does not automatically make the complete system around it reliable. Real tasks involve instructions, information, tools, dependencies, permissions, costs and consequences.
 
-SŪTRA focuses on the system around the model:
+SUTRA focuses on the system around the model:
 
 - **Direction:** keep work aligned with the original objective.
 - **Context:** use information that is relevant to the task.
@@ -60,13 +60,13 @@ The aim is not to make every task more complicated. Simple tasks should remain s
 
 ## How it fits into an AI system
 
-SŪTRA is intended to sit between an objective and the capabilities used to fulfil it.
+SUTRA is intended to sit between an objective and the capabilities used to fulfil it.
 
 ```text
 User objective and constraints
              │
              ▼
-       SŪTRA INTELLIGENCE
+       SUTRA INTELLIGENCE
   Understand · Contextualise · Coordinate
        Plan · Govern · Monitor
              │
@@ -102,7 +102,7 @@ These are intended application areas. Availability and effectiveness depend on t
 ## Our design principles
 
 **Model independence**  
-SŪTRA is being designed to work across different AI models and providers rather than depending on one model.
+SUTRA is being designed to work across different AI models and providers rather than depending on one model.
 
 **Task-appropriate intelligence**  
 Use deterministic software for deterministic work, and AI reasoning where it adds value.
@@ -124,7 +124,7 @@ Retain mechanisms because they demonstrate value, not because they sound compell
 
 ## Philosophy and identity
 
-The name SŪTRA draws inspiration from the idea of a thread: a principle that connects separate parts into a coherent whole.
+The name SUTRA draws inspiration from the idea of a thread: a principle that connects separate parts into a coherent whole.
 
 The visual identity takes inspiration from Indian philosophical thought, Sanskrit and sacred geometry. The expression **अहं ब्रह्मास्मि** appears as a philosophical motif in the brand experience.
 
@@ -132,7 +132,7 @@ This inspiration is not a claim of ownership over Sanskrit, traditional symbols,
 
 ## Development status
 
-SŪTRA is an actively developed project. Its work has progressed through an independent software prototype, foundational control components and automated testing.
+SUTRA is an actively developed project. Its work has progressed through an independent software prototype, foundational control components and automated testing.
 
 The project is still being developed and evaluated. Passing software tests establishes behaviour only within the conditions those tests cover. It does not, by itself, prove real-world effectiveness.
 
@@ -140,7 +140,7 @@ The following remain separate evaluation requirements:
 
 - End-to-end testing across complete tasks.
 - Testing with representative, non-synthetic workloads.
-- Baseline comparisons against systems operating without SŪTRA.
+- Baseline comparisons against systems operating without SUTRA.
 - Measurement of latency, cost, task success and verified success.
 - Independent evaluation of reliability and failure recovery.
 
@@ -148,7 +148,7 @@ No unverified claim is made here about improved reasoning, accuracy, speed, cost
 
 ## Status and honesty
 
-SŪTRA is at **prototype stage**. Its core hypothesis, that a model-independent control layer makes AI work more reliable and less wasteful, is **unproven**. No benchmarks exist; only synthetic unit tests. This project makes no claim of improved speed, cost, accuracy or reasoning.
+SUTRA is at **prototype stage**. Its core hypothesis, that a model-independent control layer makes AI work more reliable and less wasteful, is **unproven**. No benchmarks exist; only synthetic unit tests. This project makes no claim of improved speed, cost, accuracy or reasoning.
 
 ![License: Proprietary](https://img.shields.io/badge/license-proprietary-b8860b)
 ![Status: Prototype](https://img.shields.io/badge/status-prototype-7fb8ff)
@@ -158,7 +158,7 @@ SŪTRA is at **prototype stage**. Its core hypothesis, that a model-independent 
 
 ```mermaid
 flowchart LR
-    A["User objectives"] --> B["Sūtra Intelligence"]
+    A["User objectives"] --> B["Sutra Intelligence"]
     B --> C["Models and Tools"]
     C --> D["Execution and Verification"]
     D --> E["Outcomes and Feedback"]
@@ -167,15 +167,15 @@ flowchart LR
 
 ## Documentation
 
-[Why Sūtra](docs/WHY-SUTRA.md) · [Capabilities](docs/CAPABILITIES.md) · [Architecture overview](docs/ARCHITECTURE-OVERVIEW.md) · [Use cases](docs/USE-CASES.md) · [Roadmap](docs/ROADMAP.md) · [FAQ](docs/FAQ.md) · [Copyright](COPYRIGHT.md) · [Trademark](TRADEMARK.md)
+[Why Sutra](docs/WHY-SUTRA.md) · [Capabilities](docs/CAPABILITIES.md) · [Architecture overview](docs/ARCHITECTURE-OVERVIEW.md) · [Use cases](docs/USE-CASES.md) · [Roadmap](docs/ROADMAP.md) · [FAQ](docs/FAQ.md) · [Copyright](COPYRIGHT.md) · [Trademark](TRADEMARK.md)
 
 ## What this repository contains
 
-This is the **public-facing website and brand repository** for SŪTRA INTELLIGENCE.
+This is the **public-facing website and brand repository** for SUTRA INTELLIGENCE.
 
 It does not contain:
 
-- Sūtra Core source code or executable implementation.
+- Sutra Core source code or executable implementation.
 - Private operating specifications.
 - Private research notes, development logs or internal design documents.
 - Non-public evaluation data, experiments or proprietary engineering materials.
@@ -191,7 +191,7 @@ The public description explains the project's purpose and intended capabilities 
 
 **© 2026 Rishav Mishra. All rights reserved.**
 
-SŪTRA INTELLIGENCE™ is presented as an unregistered trademark claim; no trademark registration is asserted. The original branding, artwork, website materials and identified proprietary materials are reserved to their respective owner, subject to applicable law.
+SUTRA INTELLIGENCE is presented as an unregistered trademark claim; no trademark registration is asserted. The original branding, artwork, website materials and identified proprietary materials are reserved to their respective owner, subject to applicable law.
 
 No licence is granted by this README. See [LICENSE](LICENSE) and any applicable ownership notices in this repository.
 
@@ -200,7 +200,7 @@ The presence of traditional philosophical concepts, Sanskrit expressions or hist
 ---
 
 <p align="center">
-  <strong>SŪTRA INTELLIGENCE™</strong><br>
+  <strong>SUTRA INTELLIGENCE</strong><br>
   <em>The Intelligence Control Architecture for AI.</em><br><br>
   <a href="https://rishavm713-create.github.io/sutra-intelligence-site/">Visit the official website</a>
 </p>

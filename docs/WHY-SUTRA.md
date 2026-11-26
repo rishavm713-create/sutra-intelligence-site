@@ -1,4 +1,4 @@
-# Why SŪTRA INTELLIGENCE™
+# Why SUTRA INTELLIGENCE
 
 [← Back to README](../README.md)
 

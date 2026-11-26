@@ -17,7 +17,7 @@ Where a control layer *could* help, and where it may not. These are illustration
 
 - Short, one-shot questions. A control layer adds overhead and may add nothing.
 - Work where verification is impossible or meaningless.
-- Settings that need guaranteed outcomes. Sūtra offers no guarantee.
+- Settings that need guaranteed outcomes. Sutra offers no guarantee.
 - Anything safety-critical. It is a prototype and must not be relied on for that.
 
 ## What would settle it

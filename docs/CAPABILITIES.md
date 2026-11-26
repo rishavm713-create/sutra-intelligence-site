@@ -2,7 +2,7 @@
 
 [← Back to README](../README.md)
 
-This page describes what SŪTRA INTELLIGENCE™ is meant to do, at product level. It says nothing about how. **No capability below has been benchmarked.** No claim of improved speed, cost, accuracy or reasoning is made.
+This page describes what SUTRA INTELLIGENCE is meant to do, at product level. It says nothing about how. **No capability below has been benchmarked.** No claim of improved speed, cost, accuracy or reasoning is made.
 
 ## Capability areas
 
