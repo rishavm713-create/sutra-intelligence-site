@@ -178,3 +178,6 @@ footer p.byline strong{color:#d8b45a;font-weight:600}
 #track{height:200vh;margin-bottom:-30vh}
 .note{font:15px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif;color:#b9b2a0}
 }
+
+/* touch devices: no scroll-pinned scrub (sticky is unreliable on some mobile Chromes); animation autoplays instead */
+html.auto #track{height:auto;margin-bottom:0}html.auto #hero{position:relative}
