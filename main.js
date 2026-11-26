@@ -32,7 +32,7 @@ function setFinal(){
 }
 /* text -> target points */
 function sampleText(n){
-  var txt='SŪTRA INTELLIGENCE',cs=getComputedStyle(h1);
+  var txt='SUTRA INTELLIGENCE',cs=getComputedStyle(h1);
   var c=document.createElement('canvas'),x=c.getContext('2d'),cw=Math.ceil(W),ch=Math.ceil(fs*1.6);c.width=cw;c.height=ch;
   x.font=cs.fontWeight+' '+fs+'px '+cs.fontFamily;x.textBaseline='middle';x.fillStyle='#fff';
   var ls=parseFloat(cs.letterSpacing)||fs*.22,tot=0,i,w=[];
@@ -136,7 +136,7 @@ function hi(i){rings.forEach(function(r){r.classList.toggle('on',r.dataset.i===i
 rings.forEach(function(r){r.addEventListener('mouseenter',function(){hi(r.dataset.i)})});
 lis.forEach(function(l){['mouseenter','focus'].forEach(function(ev){l.addEventListener(ev,function(){hi(l.dataset.i)})})});
 /* lifecycle */
-var SA=[["संकल्प", "Saṅkalpa"], ["योजना", "Yojanā"], ["विवेक", "Viveka"], ["कर्म", "Karma"], ["प्रमाण", "Pramāṇa"], ["साक्षी", "Sākṣī"]];var T=[['Anchor','The objective and its success criteria are fixed first. They change only when the user changes them.'],['Plan','The work is broken into dependent steps, with a bounded number of re-plans.'],['Gate','Each proposed action is checked against scope and risk. Outward or irreversible actions need a yes.'],['Execute','Models and tools do the work. What actually happened is recorded by the harness, not by the model.'],['Verify','Done means independently checked, not self-reported. Unchecked work is labelled as such.'],['Recover and report','Failures are named by type and handled with bounded retries, changed inputs, or a request for a human.']];
+var SA=[["संकल्प", "Sankalpa"], ["योजना", "Yojana"], ["विवेक", "Viveka"], ["कर्म", "Karma"], ["प्रमाण", "Pramana"], ["साक्षी", "Sakshi"]];var T=[['Anchor','The objective and its success criteria are fixed first. They change only when the user changes them.'],['Plan','The work is broken into dependent steps, with a bounded number of re-plans.'],['Gate','Each proposed action is checked against scope and risk. Outward or irreversible actions need a yes.'],['Execute','Models and tools do the work. What actually happened is recorded by the harness, not by the model.'],['Verify','Done means independently checked, not self-reported. Unchecked work is labelled as such.'],['Recover and report','Failures are named by type and handled with bounded retries, changed inputs, or a request for a human.']];
 var nodes=document.querySelectorAll('.node');
 function sel(n){nodes.forEach(function(x){x.classList.toggle('on',x===n)});var t=T[+n.dataset.i];$('lc-h').textContent=t[0];var q=SA[+n.dataset.i];$('lc-s').innerHTML=q[0]+' <i>'+q[1]+'</i>';$('lc-p').textContent=t[1]}
 nodes.forEach(function(n){n.addEventListener('click',function(){sel(n)});n.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();sel(n)}})});
