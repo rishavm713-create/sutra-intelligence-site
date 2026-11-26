@@ -199,11 +199,11 @@ The public description explains the project's purpose and intended capabilities 
 
 **© 2026 Rishav Mishra. All rights reserved.**
 
-SUTRA INTELLIGENCE is presented as an unregistered trademark claim; no trademark registration is asserted. The original branding, artwork, website materials and identified proprietary materials are reserved to their respective owner, subject to applicable law.
+SUTRA INTELLIGENCE is a brand of Rishav Mishra. The name, branding, artwork, website and written materials are original work, protected and reserved to their owner.
 
-No licence is granted by this README. See [LICENSE](LICENSE) and any applicable ownership notices in this repository.
+Permission to use any of it is available on request. See [LICENSE](LICENSE) and [COPYRIGHT.md](COPYRIGHT.md).
 
-The presence of traditional philosophical concepts, Sanskrit expressions or historical motifs does not create an exclusive ownership claim over those traditions.
+SUTRA draws inspiration from India's philosophical heritage, which belongs to everyone. We honour it, and claim only our own original work.
 
 ---
 
