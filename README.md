@@ -210,7 +210,7 @@ The public description explains the project's purpose and intended capabilities 
 
 ## Project links
 
-- **Official website:** [sutra-intelligence-site](https://rishavm713-create.github.io/sutra-intelligence-site/)
+- **Official website:** [SUTRA INTELLIGENCE](https://rishavm713-create.github.io/sutra-intelligence-site/)
 - **Public website repository:** [GitHub repository](https://github.com/rishavm713-create/sutra-intelligence-site)
 
 ## Ownership and use
