@@ -203,7 +203,7 @@ SUTRA INTELLIGENCE is a brand of Rishav Mishra. The name, branding, artwork, web
 
 Permission to use any of it is available on request. See [LICENSE](LICENSE) and [COPYRIGHT.md](COPYRIGHT.md).
 
-SUTRA draws inspiration from India's philosophical heritage, which belongs to everyone. We honour it, and claim only our own original work.
+**Inspired by Indian philosophy.** SUTRA takes its name and spirit from India's ancient thinking: many parts held together by one thread, with discipline and clarity of purpose. That heritage belongs to everyone; we honour it and claim only our own original work.
 
 ---
 
