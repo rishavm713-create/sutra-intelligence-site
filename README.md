@@ -20,6 +20,8 @@ It is designed to work **around AI models**, not to replace them. SUTRA aims to 
   <a href="https://rishavm713-create.github.io/sutra-intelligence-site/"><strong>Explore the official website →</strong></a>
 </p>
 
+**Inspired by Indian philosophy.** Many parts, held together by one thread.
+
 > Ancient in philosophical inspiration. Futuristic in engineering. Independent in intelligence.
 
 ---
