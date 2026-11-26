@@ -4,22 +4,30 @@
 
 Direction, not promises. No dates.
 
-## Now
+## Completed
+- Early private prototype, implemented and unit tested on synthetic cases
+- Public website and this documentation
+
+## Now (in development)
 - Choosing the right AI or tool for each step
 - Avoiding repeated work
 - Working with more than one AI product
 - Keeping a record of results
 
-## Next: real-world testing
+## Planned: real-world testing
 The most important step.
 - Pick fair real jobs and compare with using AI directly
 - Honestly measure reliability, wasted effort, cost and human effort
 - Share results, including bad ones, only once they exist
 
-## Later (ideas)
+## Planned later (ideas)
 - Handle more kinds of information
 - Explain why a result can be trusted
 - Support more tools
+
+## Unproven objectives
+- That a control layer improves reliability or reduces waste
+- That model independence works in practice
 
 ## Not planned
 - Publishing private source or research here

@@ -30,6 +30,24 @@ A supervisor that:
 
 The name comes from the Sanskrit word *sutra*, a thread. The thread ties many separate beads into one garland.
 
+## Why I started building this (founder)
+
+> I started building Sūtra because I believe artificial intelligence needs more than intelligence. It needs discipline, accountability and a reliable relationship with truth.
+>
+> As AI systems become more capable of reasoning, planning and acting through tools, a fundamental engineering question emerges: how do we ensure that what a system intends, what it actually does and what it claims to have achieved remain consistent?
+>
+> I wanted to explore that problem independently, through a control architecture designed around objectives, evidence, execution, verification and accountability.
+>
+> My inspiration also comes from India's intellectual traditions, which have explored questions of knowledge, reasoning, perception, truth, action, consciousness and reality for centuries.
+>
+> Sūtra is my attempt to bring some of those enduring questions into the engineering of modern AI systems.
+
+— Rishav Mishra, Founder & Architect
+
+**The engineering question in plain words:** three things should match: what the system *intends*, what it *does*, and what it *says it did*. When they drift apart, people cannot trust the result. SUTRA is an attempt to keep them together. Whether it succeeds is unproven.
+
+**Indian philosophy:** the traditions that inspire this are explained, with their limits and sources, in [PHILOSOPHY.md](PHILOSOPHY.md). They are inspiration, not proof.
+
 ## What SUTRA is not
 
 - Not a new AI.

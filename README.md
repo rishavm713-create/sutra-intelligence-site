@@ -68,32 +68,6 @@ SUTRA focuses on the system around the model:
 
 The aim is not to make every task more complicated. Simple tasks should remain simple. More complex or consequential tasks should receive the additional planning, checking and oversight they require.
 
-## How it fits into an AI system
-
-SUTRA is intended to sit between an objective and the capabilities used to fulfil it.
-
-```text
-User objective and constraints
-             │
-             ▼
-       SUTRA INTELLIGENCE
-  Understand · Contextualise · Coordinate
-       Plan · Govern · Monitor
-             │
-             ▼
-       Models and tools
-    AI models · Software · APIs
-             │
-             ▼
-      Execution and checking
-     Verify · Recover · Evaluate
-             │
-             ▼
-       Result and feedback
-```
-
-This is a conceptual overview, not a disclosure of the internal implementation or a promise that every stage is already integrated.
-
 ## Designed for many kinds of AI products
 
 A shared intelligence architecture can support different products without requiring them to expose the same interface or workflow.
@@ -142,29 +116,27 @@ This inspiration is not a claim of ownership over Sanskrit, traditional symbols,
 
 ## Development status
 
-SUTRA is an actively developed project. Its work has progressed through an independent software prototype, foundational control components and automated testing.
+Each stage of maturity is separate. Passing tests does not mean validation.
 
-The project is still being developed and evaluated. Passing software tests establishes behaviour only within the conditions those tests cover. It does not, by itself, prove real-world effectiveness.
+| Level | Status for SUTRA |
+|---|---|
+| Implemented | Early prototype exists (private) |
+| Unit tested | Yes, on synthetic cases only |
+| Integration tested | Not established in public material |
+| Benchmarked | No |
+| Independently validated | No |
+| Planned | Real-world evaluation, wider model and tool support |
+| Unproven | The core hypothesis: that a model-independent control layer makes AI work more reliable and less wasteful |
 
-The following remain separate evaluation requirements:
-
-- End-to-end testing across complete tasks.
-- Testing with representative, non-synthetic workloads.
-- Baseline comparisons against systems operating without SUTRA.
-- Measurement of latency, cost, task success and verified success.
-- Independent evaluation of reliability and failure recovery.
-
-No unverified claim is made here about improved reasoning, accuracy, speed, cost savings or production readiness.
+No claim is made about improved reasoning, accuracy, speed, cost, token savings or reliability, and none that SUTRA is better than other AI systems.
 
 ## In simple words
 
 AI tools are clever but can lose track of what you asked, repeat themselves, mark their own work as correct, or say "done" too early. SUTRA is an early idea for a supervisor that sits above them. It remembers what you want, picks the right tool for each step, has someone else check the result, and tells you honestly what is and is not finished. It is a prototype and **not yet proven**. It is not a new AI, and nothing here says it is faster, cheaper or better.
 
-## Status and honesty
+## Conceptual architecture
 
-SUTRA is at **prototype stage**. Its core hypothesis, that a model-independent control layer makes AI work more reliable and less wasteful, is **unproven**. No benchmarks exist; only synthetic unit tests. This project makes no claim of improved speed, cost, accuracy or reasoning.
-
-## Architecture at a glance
+SUTRA sits between a person's objective and the models and tools used to fulfil it. This is a public, conceptual view only.
 
 ```mermaid
 flowchart LR
@@ -187,13 +159,19 @@ SUTRA is inspired by ideas from Indian thought. These are inspirations for how w
 | Execution and Verification | **Pramana** (valid ways of knowing) | Do not just believe a result; check it properly. |
 | Outcomes and Feedback | **Karma** (action and its result) | Every action has a result, and we learn from it. |
 
+Careful explanations, limits and sources are in [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md).
+
 Running through all of it is **Satya** (truthfulness): saying honestly what is done and what is not. The word *sutra* itself means a thread that joins many beads into one garland.
 
 These traditions belong to everyone. We honour them and claim only our own original work.
 
+## Founder
+
+**Rishav Mishra**, Founder & Architect, SUTRA INTELLIGENCE. His motivation is in [docs/WHY-SUTRA.md](docs/WHY-SUTRA.md) and on the [website](https://rishavm713-create.github.io/sutra-intelligence-site/#founder).
+
 ## Documentation
 
-[Why Sutra](docs/WHY-SUTRA.md) · [Capabilities](docs/CAPABILITIES.md) · [Architecture overview](docs/ARCHITECTURE-OVERVIEW.md) · [Use cases](docs/USE-CASES.md) · [Roadmap](docs/ROADMAP.md) · [FAQ](docs/FAQ.md) · [Copyright](COPYRIGHT.md) · [Trademark](TRADEMARK.md)
+[Why Sutra](docs/WHY-SUTRA.md) · [Philosophy](docs/PHILOSOPHY.md) · [Capabilities](docs/CAPABILITIES.md) · [Architecture overview](docs/ARCHITECTURE-OVERVIEW.md) · [Use cases](docs/USE-CASES.md) · [Roadmap](docs/ROADMAP.md) · [FAQ](docs/FAQ.md) · [Copyright](COPYRIGHT.md) · [Trademark](TRADEMARK.md)
 
 ## What this repository contains
 

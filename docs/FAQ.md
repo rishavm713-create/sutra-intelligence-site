@@ -14,6 +14,15 @@ We don't know. It has not been tested on real work, so we make no such claim.
 **What has been tested?**
 Only small practice tests on the private prototype. They show it behaves as planned, not that it helps in real life.
 
+**How does it relate to other AI systems?**
+It is meant to sit around them, not compete with them. No comparison with any AI system has been made, and we do not claim SUTRA is better.
+
+**Why does Indian philosophy inspire it?**
+Indian traditions have long examined knowledge, evidence, truth, discipline and action. These questions inspire the design. They are not proof and not a description of software. See [PHILOSOPHY.md](PHILOSOPHY.md).
+
+**What stage is it at?**
+Implemented as an early prototype and unit tested on synthetic cases. Not benchmarked or independently validated.
+
 **Is it open source?**
 No. All rights are reserved. See [LICENSE](../LICENSE).
 

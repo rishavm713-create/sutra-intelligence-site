@@ -21,7 +21,7 @@ Everything here is a goal, described in plain words. **Nothing has been measured
 
 ## How far along is each one?
 
-**Built in an early prototype** (only practice-tested, not tried on real work)
+**Implemented and unit tested** (synthetic cases only; not production-ready, not integration tested or validated in public material)
 - Staying on target
 - Checking work separately from doing it
 - Trying again a few times, then asking a person
