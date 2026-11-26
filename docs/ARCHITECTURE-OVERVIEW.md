@@ -1,57 +1,41 @@
-# Architecture Overview
+# How SUTRA fits together
 
 [← Back to README](../README.md)
 
-A conceptual view only. Internal components, interfaces, rules and mechanisms are intentionally not described, and are not published.
-
-## Five stages
+A simple picture. The private details are deliberately left out.
 
 ```mermaid
 flowchart LR
-    A["User objectives"] --> B["Sutra Intelligence"]
-    B --> C["Models and Tools"]
-    C --> D["Execution and Verification"]
-    D --> E["Outcomes and Feedback"]
-    E -. informs .-> B
+    A["What you want"] --> B["SUTRA Intelligence"]
+    B --> C["AI models and tools"]
+    C --> D["Doing and checking the work"]
+    D --> E["Results and lessons"]
+    E -. helps next time .-> B
 ```
 
 ```
-User objectives → Sutra Intelligence → Models and Tools
-                → Execution and Verification → Outcomes and Feedback
+What you want → SUTRA Intelligence → AI models and tools
+              → Doing and checking the work → Results and lessons
 ```
 
-## 1. User objectives
+Think of building a house.
 
-**Responsibility:** receive what the person wants, with their constraints, in their terms.
-**Benefit:** a single, clear reference for everything that follows.
+1. **What you want (User objectives)** – You describe the house. This is the plan everyone must follow.
+2. **SUTRA Intelligence** – The site manager. Keeps your wishes in mind, gathers what is needed, and decides who does what.
+3. **AI models and tools** – The workers and equipment. The manager picks the right ones, from any supplier.
+4. **Doing and checking the work (Execution and Verification)** – Workers build; a different person inspects. If something goes wrong, they try again a few times, then call you.
+5. **Results and lessons (Outcomes and Feedback)** – You get the house with an honest list of anything unfinished, and lessons are kept for the next job.
 
-## 2. Sutra Intelligence
+## Why this shape?
 
-**Responsibility:** keep the objective steady; gather context and evidence; shape a plan; decide what kind of work should go where.
-**Benefit:** one coordinating point, instead of disconnected model calls that each start from scratch.
-
-## 3. Models and Tools
-
-**Responsibility:** the AI models and tools that actually have capabilities. Sutra selects among them per piece of work.
-**Benefit:** the right capability for the job, and no dependence on one vendor.
-
-## 4. Execution and Verification
-
-**Responsibility:** carry the work out, and check it separately from whatever produced it. When something fails, retry within limits and escalate to a human rather than hide it.
-**Benefit:** results are not simply self-approved; failures are visible.
-
-## 5. Outcomes and Feedback
-
-**Responsibility:** deliver the result with an honest statement of what is complete and what is not, and return what was learned to the process.
-**Benefit:** incomplete work is labelled, and experience is not discarded.
-
-## Model independence
-
-Stages 2, 4 and 5 are meant to stay the same when the models in stage 3 change. That separation is the point of the design.
+- One manager keeps the job on track.
+- Workers can be swapped without changing the plan.
+- Inspection is separate from building.
+- Problems are reported, not hidden.
 
 ## Status
 
-Prototype. The architecture is a hypothesis about how to organise AI work. It is unbenchmarked and unproven.
+An early prototype and an unproven idea.
 
 ---
 © 2026 Rishav Mishra. All rights reserved.

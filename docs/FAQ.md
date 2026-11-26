@@ -3,46 +3,40 @@
 [← Back to README](../README.md)
 
 **What is SUTRA INTELLIGENCE?**
-A prototype control layer meant to sit above AI models and tools, keeping objectives steady, separating doing from verifying, and reporting honestly on outcomes.
+An early idea and prototype for a "supervisor" that sits above AI tools to keep work on track and honest.
 
-**Is it a new AI model?**
-No. It coordinates existing models and tools.
+**Is it a new AI?**
+No. It manages existing AI tools.
 
-**Does it make AI faster, cheaper or more accurate?**
-Unknown. No benchmarks exist. This project makes no such claim.
+**Does it make AI faster, cheaper or smarter?**
+We don't know. It has not been tested on real work, so we make no such claim.
 
 **What has been tested?**
-Only synthetic unit tests of the private prototype. They show intended behaviour in controlled cases, not real-world benefit.
-
-**What is the core hypothesis?**
-That a model-independent control layer makes AI work more reliable and less wasteful. It is unproven.
+Only small practice tests on the private prototype. They show it behaves as planned, not that it helps in real life.
 
 **Is it open source?**
-No. It is proprietary and all rights are reserved. See [LICENSE](../LICENSE).
+No. All rights are reserved. See [LICENSE](../LICENSE).
 
-**Where is the source code?**
-Private, and not in this repository.
+**Where is the code?**
+Private. It is not in this repository.
 
-**Can I use or copy this repository's text, design or art?**
-Not without written permission. Training or evaluating machine-learning models on it is not permitted.
+**Can I copy the text, design or art?**
+Not without written permission. Using it to train AI is not allowed.
 
-**Is the name registered as a trademark?**
-No. It is an unregistered trademark claim. Availability has not yet been verified by an official register search. See [TRADEMARK.md](../TRADEMARK.md).
+**Is the name a registered trademark?**
+No. It is an unregistered claim, and nobody has yet officially checked whether the name is free to use. See [TRADEMARK.md](../TRADEMARK.md).
 
 **Do you own Sanskrit or Indian philosophy?**
-No. Those are a shared heritage. Only the original software, design, art and text are claimed. See [COPYRIGHT.md](../COPYRIGHT.md).
+No. Those belong to everyone. Only our original software, design, art and writing are claimed. See [COPYRIGHT.md](../COPYRIGHT.md).
 
-**Why model independence?**
-Models change quickly and none is best at everything. Independence is a design goal; it has not been proven in practice.
-
-**What happens when a task fails?**
-The intent: bounded retries, then escalation to a human, and an honest report of what is incomplete.
+**What if a job fails?**
+The plan is to try again a few times, then ask a person, and be honest about what is unfinished.
 
 **Can I rely on it for important work?**
-Not at this stage. It is a prototype.
+Not yet. It is a prototype.
 
-**How do I ask for permission or get in touch?**
-Via the GitHub profile [rishavm713-create](https://github.com/rishavm713-create).
+**How do I contact the owner?**
+Through the GitHub profile [rishavm713-create](https://github.com/rishavm713-create).
 
 ---
 © 2026 Rishav Mishra. All rights reserved.

@@ -146,6 +146,10 @@ The following remain separate evaluation requirements:
 
 No unverified claim is made here about improved reasoning, accuracy, speed, cost savings or production readiness.
 
+## In simple words
+
+AI tools are clever but can lose track of what you asked, repeat themselves, mark their own work as correct, or say "done" too early. SUTRA is an early idea for a supervisor that sits above them. It remembers what you want, picks the right tool for each step, has someone else check the result, and tells you honestly what is and is not finished. It is a prototype and **not yet proven**. It is not a new AI, and nothing here says it is faster, cheaper or better.
+
 ## Status and honesty
 
 SUTRA is at **prototype stage**. Its core hypothesis, that a model-independent control layer makes AI work more reliable and less wasteful, is **unproven**. No benchmarks exist; only synthetic unit tests. This project makes no claim of improved speed, cost, accuracy or reasoning.

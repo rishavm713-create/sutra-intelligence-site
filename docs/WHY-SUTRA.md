@@ -2,52 +2,48 @@
 
 [← Back to README](../README.md)
 
-*Status: prototype. The central hypothesis below is unproven. No benchmarks exist.*
+*Status: early prototype. The main idea is not yet proven. No tests against real work have been done.*
 
-## The problem
+## In one sentence
 
-A capable AI model is not the same as a dependable AI system. Models are good at producing plausible output. Dependability needs more around them:
+AI tools are smart but forgetful and overconfident. SUTRA is an idea for a "supervisor" that sits above them to keep the work on track and honest.
 
-1. **A steady objective.** Over a long task, instructions blur, constraints are forgotten and the work wanders from what the person asked.
-2. **Grounding.** Output that is not tied to evidence can sound right and be wrong.
-3. **Independent checking.** When the same process does the work and approves it, errors pass through unchallenged.
-4. **Honest failure.** Systems tend either to retry without limit or to return something confident and incomplete.
-5. **Waste.** Without memory of what was already done, work is repeated.
-6. **Lock-in.** Building everything around one model or product makes change expensive.
+## The problem, in plain words
 
-These are problems of *coordination*, not only of model quality.
+Using AI for a big job is like handing a task to a very fast helper who:
+
+- slowly forgets what you originally asked for,
+- sometimes does the same work twice,
+- marks their own homework as correct,
+- says "done!" when the job is only half finished,
+- and works with only one company's tools, so changing is hard.
 
 ## The idea
 
-Place a control layer above the models. It does not replace them. It keeps the objective in view, decides what is needed, directs work to suitable models and tools, requires that results be checked, and reports honestly on what was and was not achieved.
+A supervisor that:
 
-The name comes from the Sanskrit *sūtra*, a thread. The idea is the thread that keeps separate parts working as one effort.
+1. remembers exactly what you asked for,
+2. picks the right helper or tool for each step,
+3. has someone other than the worker check the result,
+4. tells you honestly what is finished and what is not,
+5. asks a human for help instead of guessing when it is stuck.
 
-## What this is not
+The name comes from the Sanskrit word *sutra*, a thread. The thread ties many separate beads into one garland.
 
-- Not a new AI model.
-- Not a claim that AI becomes smarter, faster or cheaper.
-- Not a finished product. It is a prototype.
+## What SUTRA is not
+
+- Not a new AI.
+- Not proven to make anything faster, cheaper or better.
+- Not finished.
 - Not open source.
 
-## The core hypothesis, and its status
+## Honest status
 
-> A model-independent control layer can make AI work more reliable and less wasteful than using models directly.
+We believe a supervisor like this could make AI work more dependable. **We have not proven it.** It has only passed small practice tests, not real-world trials. It could turn out to help a lot, a little, or not at all.
 
-**This is unproven.** It has not been tested on real tasks against a fair baseline. The prototype has only synthetic unit tests, which show intended behaviour in controlled cases and say nothing about real-world benefit. The hypothesis could turn out false, or true only in narrow settings, or true with costs that outweigh benefits. Evaluating it honestly is the point of the next stage of work (see [ROADMAP](ROADMAP.md)).
+## Why not tie it to one AI company?
 
-## Why model independence matters
-
-- **Change is constant.** Better and cheaper models appear regularly.
-- **No single best.** Different models suit different work.
-- **Continuity.** A person's objectives and checking habits should survive a change of model.
-- **Resilience.** Reliance on one provider is a single point of failure.
-
-Independence is a design goal. Whether it is practical at scale is also yet to be shown.
-
-## Inspiration
-
-Indian philosophy frames the tone: unity from many parts, discipline, clarity of purpose. It inspires; it does not prove anything about the software. The traditional ideas belong to a shared heritage and are not claimed here. See [TRADEMARK.md](../TRADEMARK.md).
+AI products change fast. If the supervisor works with any of them, you can switch to a better one without starting over. That is the goal; it is not yet proven in practice.
 
 ---
 © 2026 Rishav Mishra. All rights reserved.

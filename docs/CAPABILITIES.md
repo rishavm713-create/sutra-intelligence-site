@@ -1,62 +1,51 @@
-# Capabilities
+# What SUTRA aims to do
 
 [← Back to README](../README.md)
 
-This page describes what SUTRA INTELLIGENCE is meant to do, at product level. It says nothing about how. **No capability below has been benchmarked.** No claim of improved speed, cost, accuracy or reasoning is made.
+Everything here is a goal, described in plain words. **Nothing has been measured.** We do not claim it makes AI faster, cheaper or more accurate.
 
-## Capability areas
+## The goals
 
-| Area | Intended behaviour |
+| Goal | In simple words |
 |---|---|
-| Objective keeping | Keeps the person's stated objective fixed through a long job. |
-| Context and evidence | Works from what is known and surfaces what is not. |
-| Planning | Shapes a plan for non-trivial work and adjusts it when evidence changes. |
-| Model and tool selection | Chooses suitable models and tools per piece of work. |
-| Execution | Carries work out through the chosen models and tools. |
-| Verification | Separates doing from verifying, so results are checked apart from their producer. |
-| Failure handling | Bounded retries, then escalation to a human. |
-| Incompleteness | Reports unfinished work as unfinished. |
-| Efficiency | Aims to avoid unnecessary computation and repeated operations. |
-| Multi-product support | Aims to work across different AI products. |
-| Feedback | Carries outcomes back into later work. |
+| Stay on target | Remember what you asked for, from start to finish. |
+| Use real information | Work from what is known, and say what is not known. |
+| Plan first | Think through bigger jobs before starting. |
+| Pick the right helper | Choose a suitable AI or tool for each step. |
+| Check the work | Have a separate check, not just the worker's own opinion. |
+| Handle problems | Try again a few times, then ask a person. |
+| Be honest | Say clearly when something is not finished. |
+| Avoid waste | Try not to repeat work that is already done. |
+| Work with many AI products | Not be locked to one company. |
+| Learn from results | Use what happened to do better next time. |
 
-## Status by maturity
+## How far along is each one?
 
-### Implemented prototype capabilities
-Present in the private prototype. Tested only with synthetic unit tests.
+**Built in an early prototype** (only practice-tested, not tried on real work)
+- Staying on target
+- Checking work separately from doing it
+- Trying again a few times, then asking a person
+- Saying honestly when work is unfinished
 
-- Keeping an objective fixed across a task
-- Separating doing from verifying
-- Bounded retries with human escalation
-- Reporting incomplete work as incomplete
+**Being built now**
+- Picking helpers across different AI companies
+- Avoiding repeated work
+- Working with more than one AI product
+- Keeping a record of results
 
-### Under active development
-Being built; may change.
+**Only an idea so far**
+- Handling more kinds of information
+- Explaining why a result can be trusted
+- Supporting more tools
 
-- Model and tool selection across several providers
-- Reducing repeated operations
-- Support for more than one AI product
-- Structured capture of outcomes and feedback
+**Waiting to be proven in the real world**
+- Does it really make AI work more dependable?
+- Does it really save effort or cost?
+- Are people happy using it?
 
-### Proposed
-Intentions only. No implementation implied.
+## Bottom line
 
-- Broader evidence handling for varied task types
-- Richer reporting of why a result is trusted or not
-- Wider range of supported tools
-
-### Awaiting real-world validation
-All of the following are open questions, not results:
-
-- Does it make work more reliable?
-- Does it reduce wasted computation?
-- Does it change cost or time, and in which direction?
-- Does model independence hold up in practice?
-- Do people find the verification and escalation useful rather than burdensome?
-
-## The honest summary
-
-The prototype exists. Its value is not established. Treat everything here as design intent until real-world evaluation says otherwise.
+A prototype exists. Its value is not yet shown. Please read this as a plan, not a result.
 
 ---
 © 2026 Rishav Mishra. All rights reserved.

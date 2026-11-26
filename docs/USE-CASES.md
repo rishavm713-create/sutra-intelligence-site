@@ -1,28 +1,28 @@
-# Use Cases
+# Where SUTRA could help
 
 [← Back to README](../README.md)
 
-Where a control layer *could* help, and where it may not. These are illustrations of intent. None has been validated, and no outcome improvement is claimed.
+These are examples of what we hope for. None has been proven.
 
-## Where it may fit
+## Might help with
 
-- **Long, multi-step tasks** where the objective can drift, such as research, analysis or multi-file changes.
-- **Work needing independent checking**, where the producer of a result should not be its only judge.
-- **Mixed-model workflows**, where different steps suit different models or tools.
-- **Repeated work**, where the same operation might otherwise be done again.
-- **Teams using several AI products**, who want one consistent way of stating objectives and checking results.
-- **Tasks that must say when they are incomplete**, instead of returning a confident partial answer.
+- **Long jobs** where AI could lose track of the goal, such as research or big edits.
+- **Work that needs a second pair of eyes**, so the worker is not the only judge.
+- **Jobs using several AI tools** that each do one part well.
+- **Repeated tasks**, so work is not redone.
+- **Teams using different AI products** who want one way to give instructions and check results.
+- **Jobs where "not finished" must be said out loud.**
 
-## Where it may not fit
+## Probably will not help with
 
-- Short, one-shot questions. A control layer adds overhead and may add nothing.
-- Work where verification is impossible or meaningless.
-- Settings that need guaranteed outcomes. Sutra offers no guarantee.
-- Anything safety-critical. It is a prototype and must not be relied on for that.
+- Quick one-line questions. A supervisor would be extra effort for no gain.
+- Jobs that cannot be checked.
+- Anything needing a guarantee. SUTRA gives none.
+- Anything where safety is at stake. It is an early prototype.
 
-## What would settle it
+## How we will find out
 
-Real tasks, a fair baseline of using models directly, and honest measurement of reliability, waste, cost and effort. Until then these are hypotheses.
+Try it on real jobs, compare with using AI directly, and honestly record what happens, good or bad.
 
 ---
 © 2026 Rishav Mishra. All rights reserved.
