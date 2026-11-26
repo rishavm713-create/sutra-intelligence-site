@@ -1,3 +1,11 @@
+<p align="center">
+
+![License: Proprietary](https://img.shields.io/badge/license-proprietary-b8860b)
+![Status: Prototype](https://img.shields.io/badge/status-prototype-7fb8ff)
+![Not open source](https://img.shields.io/badge/open%20source-no-lightgrey)
+
+</p>
+
 # SUTRA INTELLIGENCE
 
 ### The Intelligence Control Architecture for AI.
@@ -153,10 +161,6 @@ AI tools are clever but can lose track of what you asked, repeat themselves, mar
 ## Status and honesty
 
 SUTRA is at **prototype stage**. Its core hypothesis, that a model-independent control layer makes AI work more reliable and less wasteful, is **unproven**. No benchmarks exist; only synthetic unit tests. This project makes no claim of improved speed, cost, accuracy or reasoning.
-
-![License: Proprietary](https://img.shields.io/badge/license-proprietary-b8860b)
-![Status: Prototype](https://img.shields.io/badge/status-prototype-7fb8ff)
-![Not open source](https://img.shields.io/badge/open%20source-no-lightgrey)
 
 ## Architecture at a glance
 
