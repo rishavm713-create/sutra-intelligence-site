@@ -8,7 +8,7 @@ var ease=function(x){x=Math.max(0,Math.min(1,x));return x<.5?4*x*x*x:1-Math.pow(
 var clamp=function(x,a,b){return Math.max(a,Math.min(b,x))};
 var seg=function(p,a,b){return clamp((p-a)/(b-a),0,1)};
 var anims=function(){return yw.getAnimations?yw.getAnimations({subtree:true}):[]};
-function rate(r){anims().forEach(function(a){if(a.animationName&&a.animationName!=='flow')a.playbackRate=r})}
+var lastR=0;function rate(r){r=Math.round(r*4)/4;if(r===lastR)return;lastR=r;anims().forEach(function(a){if(a.animationName&&a.animationName!=='flow')a.playbackRate=r})}
 
 function layout(){
   var r=hero.getBoundingClientRect();W=r.width||innerWidth;H=r.height||innerHeight;dpr=Math.min(devicePixelRatio||1,2);
@@ -109,7 +109,7 @@ function show(p){
 }
 function step(){
   ticking=0;var d=tgt-cur;
-  if(Math.abs(d)<.0008)cur=tgt;else cur+=d*.14;
+  if(Math.abs(d)<.0008)cur=tgt;else cur+=d*.3;
   show(cur);
   if(cur!==tgt){ticking=1;requestAnimationFrame(step)}
 }
@@ -139,11 +139,11 @@ lis.forEach(function(l){['mouseenter','focus'].forEach(function(ev){l.addEventLi
 var SA=[["संकल्प", "Saṅkalpa"], ["योजना", "Yojanā"], ["विवेक", "Viveka"], ["कर्म", "Karma"], ["प्रमाण", "Pramāṇa"], ["साक्षी", "Sākṣī"]];var T=[['Anchor','The objective and its success criteria are fixed first. They change only when the user changes them.'],['Plan','The work is broken into dependent steps, with a bounded number of re-plans.'],['Gate','Each proposed action is checked against scope and risk. Outward or irreversible actions need a yes.'],['Execute','Models and tools do the work. What actually happened is recorded by the harness, not by the model.'],['Verify','Done means independently checked, not self-reported. Unchecked work is labelled as such.'],['Recover and report','Failures are named by type and handled with bounded retries, changed inputs, or a request for a human.']];
 var nodes=document.querySelectorAll('.node');
 function sel(n){nodes.forEach(function(x){x.classList.toggle('on',x===n)});var t=T[+n.dataset.i];$('lc-h').textContent=t[0];var q=SA[+n.dataset.i];$('lc-s').innerHTML=q[0]+' <i>'+q[1]+'</i>';$('lc-p').textContent=t[1]}
-nodes.forEach(function(n){n.addEventListener('click',function(){sel(n)});n.addEventListener('focus',function(){sel(n)});n.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();sel(n)}})});
+nodes.forEach(function(n){n.addEventListener('click',function(){sel(n)});n.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();sel(n)}})});
 var cyc=$('cycle'),ci=0,ct=null,hold=0,vis=false;
 function tick(){if(!vis||Date.now()<hold)return;ci=(ci+1)%nodes.length;sel(nodes[ci])}
-function pause(n){ci=+n.dataset.i;hold=Date.now()+12000}
-nodes.forEach(function(n){['click','focus','mouseenter'].forEach(function(ev){n.addEventListener(ev,function(){pause(n)})})});
-if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&'IntersectionObserver' in window){new IntersectionObserver(function(e){vis=e[0].isIntersecting;if(vis&&!ct)ct=setInterval(tick,3500);if(!vis&&ct){clearInterval(ct);ct=null}},{threshold:.4}).observe(cyc)}
+function pause(n){ci=+n.dataset.i;hold=Date.now()+6000}
+nodes.forEach(function(n){['click'].forEach(function(ev){n.addEventListener(ev,function(){pause(n)})})});
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&'IntersectionObserver' in window){new IntersectionObserver(function(e){vis=e[0].isIntersecting;if(vis&&!ct)ct=setInterval(tick,3500);if(!vis&&ct){clearInterval(ct);ct=null}},{threshold:0}).observe(cyc)}
 init();
 })();
