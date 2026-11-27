@@ -26,6 +26,18 @@ It is designed to work **around AI models**, not to replace them. SUTRA aims to 
 
 ---
 
+## Products built on SUTRA
+
+| Product | Licence | Link |
+|---|---|---|
+| TOKEN ZOMBIE | MIT (open part) | https://github.com/rishavm713-create/token-zombie |
+| EditSutra | See repo | https://github.com/rishavm713-create/editsutra |
+| Bio Paper Studio | See repo | https://github.com/rishavm713-create/bio-paper-studio |
+
+SUTRA INTELLIGENCE itself is proprietary. Open parts of a product do not open SUTRA. All repositories: https://github.com/rishavm713-create
+
+---
+
 ## What is SUTRA?
 
 Today's AI systems can generate, analyse and create. But completing a meaningful task often requires more than generating an answer: a system must understand the goal, keep the right context, choose suitable tools, respect constraints, manage steps, check its work and acknowledge uncertainty.
