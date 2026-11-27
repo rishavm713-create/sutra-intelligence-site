@@ -208,3 +208,6 @@ Permission to use any of it is available on request. See [LICENSE](LICENSE) and 
   <em>The Intelligence Control Architecture for AI.</em><br><br>
   <a href="https://rishavm713-create.github.io/sutra-intelligence-site/">Visit the official website</a>
 </p>
+
+## Core technology (added 2026-11-27)
+Section 07 lists ten original TOKEN ZOMBIE ideas as SUTRA core technology, each labelled; numbers marked measured or estimated; intended personal non-commercial terms (draft licence, not in force).
